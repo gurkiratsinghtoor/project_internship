@@ -28,8 +28,7 @@ with tab1:
             st.dataframe(pd.DataFrame(r["key_terms"], columns=["term", "influence (+ fake / - real)"]))
 
 with tab2:
-    st.write("Generates **fictional, labelled** samples (invented names/places) with the Claude API "
-             "(falls back to templates if `ANTHROPIC_API_KEY` is not set) to test the model.")
+  
     topic = "local government and city services"
 
     st.write("Topic: **Local Government and City Services**")
