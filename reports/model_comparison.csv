@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1
+Logistic Regression,1.0,1.0,1.0,1.0
+Passive Aggressive,1.0,1.0,1.0,1.0
+Multinomial NB,1.0,1.0,1.0,1.0
